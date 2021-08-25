@@ -18,11 +18,11 @@
 
     </header>
     <!-- header end -->
-    <main>
+    <main id="list">
         <!-- top players and top blogs -->
         <section class="container">
             <div class="Top-players">
-                <h2 class="section-title">Top players</h2>
+                <h2  id="top-players" class="section-title">Top players</h2>
                 <div class="players">
                     <!-- .player*6>img[src="images/players/player.png-$"]+h3{player-$} -->
                     <div class="player">
@@ -53,7 +53,7 @@
             </div>
             <hr>
             <div class="Top-blogs">
-                <h2 class="section-title">Top blogs</h2>
+                <h2 id="top-blogs" class="section-title">Top blogs</h2>
                 <div class="blogs">
                     <article class="blog">
                         <div class="thumbnail">
@@ -100,7 +100,7 @@
         </section>
         <!-- Latest Courses -->
         <section class="container">
-            <h2 class="section-title">Latest Courses</h2>
+            <h2 id="latest-courses" class="section-title">Latest Courses</h2>
             <div class="courses">
                 <div class="course">
                     <div class="course-banner">
@@ -176,6 +176,22 @@
             </div>
         </section>
     </main>
+    <section  class="onother-item"> 
+        <div >
+            <h1 id="new-course">New Courses</h1>
+        <ul  id="add-items">
+            <li>Web development</li>
+            <li>Programming</li>
+            <li>Graphic design</li>
+        </ul>
+        <button id="item">ITEMS</button>
+        </div>
+        <div>
+            <input id="input-field" type="text" value="0">
+            <button id="course-number">Number</button>
+        </div>
+     </section>
+    <script src="index.js"></script>
 </body>
 
 </html>

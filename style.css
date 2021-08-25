@@ -118,6 +118,48 @@ hr{
     color:#FF4A60;
     padding:0 10px;
 }
+#new-course{
+    color: steelblue;
+    text-align: left;
+}
+#item{
+    background-color: #2e77ff;
+    color: #FFFFFF;
+    margin-left: 3px;
+    padding: 5px 20px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+}
+#item:hover{ 
+    background-color: rgb(5, 19, 99);
+}
+.onother-item{
+display: flex;
+justify-content:space-evenly;
+align-items: baseline;
+margin: 100px 0;
+}
+#input-field{
+width: 300px;
+border: 1px solid gray;
+font-size: 20px;
+text-align: end;
+padding: 5px 10px;
+}
+#course-number{
+    background-color: #2e77ff;
+    margin-left: 3px;
+    padding: 5px 20px;
+    border: 0px ;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
 /*--------------------------- 
 Media query styles
 -----------------------------*/
